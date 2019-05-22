@@ -1,0 +1,18 @@
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  background-image: url('https://source.unsplash.com/random');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+header,
+main > * {
+  width: fit-content;
+  max-width: 80%;
+  background-color: #fff;
+}
